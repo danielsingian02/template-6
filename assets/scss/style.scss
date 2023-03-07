@@ -1,0 +1,83 @@
+@import "home";
+@import "about";
+@import "variables";
+@import "header";
+@import "footer";
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@300;500&display=swap');
+
+body {
+    font-family: 'AirFactoryRounded', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ====================================================================================================================== */
+/*                                                    CLASSES                                                             */
+/* ====================================================================================================================== */
+
+
+// flex displays 
+
+.flex{
+    display: flex;
+}
+
+.center-items {
+    display: flex;
+    justify-content: center;
+}
+
+.col-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.col-center-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-display-start {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.display-start-col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.events-list-wrap {
+    width: 20%;
+}
+
+// section margin for desktop //
+
+.col-sec {
+    padding:7em;
+}
+
+.row-wrap {
+  width:50%
+}
+
+// ----------------------- MOBILE RESPONSIVE ---------------------------//
+
+.mb-txt-cr {
+    text-align: center;
+}
+
+.row-wrap-mb {
+    width: 100%;
+}
+
+.mb {
+    display: none;
+}
