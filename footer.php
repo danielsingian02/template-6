@@ -13,7 +13,16 @@
 <div class="footer-section">
 	<div class="footer-wrap flex">
 		<div class="footer-section__col1 flex-display-start">
-			<?php $footerlogo = get_field('footer_img') ;?><img src="<?php echo $footerlogo ?>" class="footer__logo">
+		<?php
+			if ( function_exists('the_custom_logo') && (! empty(get_custom_logo())) ) :
+				the_custom_logo(); ?>
+			<?php
+			else :
+				?>
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<?php
+			endif;
+		?>
 		</div>
 		<div class="footer-section__col2">
 			<nav id="site-navigation" class="footer__navigation">
