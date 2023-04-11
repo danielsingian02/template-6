@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope&family=Playfair+Display&display=swap');
+
 @font-face {
   font-family: 'AirFactoryRounded';
   src: url('../fonts/AirFactoryRounded.ttf');
@@ -6,24 +7,26 @@
 
 button.btn.btn-light {
   display: none;
+
   @media only screen and (max-width: 768px) {
     display: block;
     position: absolute;
     width: 50px;
-    top: 90px; 
-    right: 10px; 
+    top: 90px;
+    right: 10px;
   }
+
   @media only screen and (max-width: 425px) {
-    top: 60px; 
+    top: 60px;
   }
 }
 
 .offcanvas-header {
-    padding-top: 5em;
+  padding-top: 5em;
 }
 
 .offcanvas-md {
-    width: 50%;
+  width: 50%;
 }
 
 
@@ -31,7 +34,7 @@ header {
   width: 100%;
   font-family: 'AirFactoryRounded', Serif;
   font-size: 27px;
-  
+
   & .site-icon {
     height: auto;
     max-width: 250px;
@@ -51,7 +54,8 @@ header {
   & nav {
     width: 100%;
 
-    & ul, li {
+    & ul,
+    li {
       margin: 0;
       font-family: 'Playfair Display', serif;
       font-size: 14px;
@@ -73,8 +77,9 @@ header {
       column-gap: 10px;
     }
 
-    a:visited{
+    a:visited {
       color: white;
+
       @media only screen and (max-width: 768px) {
         color: black;
       }
@@ -85,11 +90,11 @@ header {
       list-style-type: none;
       border-color: transparent;
 
-      &.current_page_item > a {
+      &.current_page_item>a {
         color: #784F33;
       }
 
-      & > a {
+      &>a {
         text-decoration: none;
         padding: 2px;
         color: white;
@@ -100,50 +105,54 @@ header {
 }
 
 header#masthead {
-    display: flex;
-    background-color: #C49106;
-    padding: 0.5em 7em ;
-    @media only screen and (max-width: 768px) {
-      padding: 1em 2em ;
-    }
+  display: flex;
+  background-color: #C49106;
+  padding: 0.5em 7em;
 
-    @media only screen and (max-width: 425px) {
-      padding: 0em 1em;
-    }
+  @media only screen and (max-width: 768px) {
+    padding: 1em 2em;
+  }
+
+  @media only screen and (max-width: 425px) {
+    padding: 0em 1em;
+  }
 }
 
 .site-branding {
-    width: 50%;
-    @media only screen and (max-width: 768px) {
-      width: 90%;
-    }
+  width: 50%;
+
+  @media only screen and (max-width: 768px) {
+    width: 90%;
+  }
 }
 
 .hamburger-menu {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    @media only screen and (max-width: 768px) {
-      width: 10%;
-    }
+  width: 50%;
+  display: flex;
+  align-items: center;
+
+  @media only screen and (max-width: 768px) {
+    width: 10%;
+  }
 }
 
 .nav__logo {
-    width: auto;
-    height: 90px;
-    @media only screen and (max-width: 425px) {
-      height: 60px;
-    }
+  width: auto;
+  height: 90px;
+
+  @media only screen and (max-width: 425px) {
+    height: 60px;
+  }
 }
 
-div#primary-menu{
+div#primary-menu {
   @media only screen and (max-width: 768px) {
     display: none;
   }
 }
 
 .navigation-burger {
-  padding:0px ;
+  padding: 0px;
 
   & li {
     padding: 10px;
@@ -153,13 +162,14 @@ div#primary-menu{
   & li:hover {
     padding: 10px;
     list-style: none;
-    background-color: rgb(196,145,6);
+    background-color: rgb(196, 145, 6);
   }
 
   & ul {
     flex-direction: column;
     align-items: center;
     margin: 0px;
+
     @media only screen and (max-width: 768px) {
       align-items: start;
     }

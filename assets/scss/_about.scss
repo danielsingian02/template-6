@@ -4,7 +4,7 @@
 
 /* Hero Banner */
 .hero-banner {
-    background: url(assets/images/HeroBanner.png) rgb(96,96,96,0.5);
+    background: url(assets/images/HeroBanner.png) rgb(96, 96, 96, 0.5);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -15,7 +15,7 @@
     font-family: 'Georgia', sans-serif;
     font-size: 48px;
     font-weight: 700;
-    color:white;
+    color: white;
 }
 
 .hero-banner__subhead {
@@ -23,7 +23,7 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 30px;
-    color:white;
+    color: white;
     width: 50%;
 }
 
@@ -63,30 +63,31 @@
     justify-content: center;
 }
 
-.about__head{
+.about__head {
     font-family: 'Georgia', sans-serif;
     font-size: 48px;
     font-weight: 700;
     line-height: 42.24px;
-    color:#3E3D3F;;
+    color: #3E3D3F;
+    ;
 }
 
-.about__desc{
+.about__desc {
     font-family: 'Georgia', sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
     padding-top: 20px;
-    color:#747474;
+    color: #747474;
 }
 
 .about__img-desc {
     text-align: center;
-    background-color:#036F33;
+    background-color: #036F33;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 300;
-    color:white;
+    color: white;
     padding: 10px 0;
 }
 
@@ -122,9 +123,11 @@
     margin-left: auto;
     margin-right: auto;
 }
-.w3-red,.w3-hover-red:hover{
+
+.w3-red,
+.w3-hover-red:hover {
     border-style: solid !important;
-    border-width: 0px  0px 2px 0px ;
+    border-width: 0px 0px 2px 0px;
     border-color: black;
     border-radius: 0px;
 }
@@ -199,6 +202,7 @@
     font-weight: 400;
     color: white;
 }
+
 /* end of Events */
 
 
@@ -209,31 +213,31 @@
 }
 
 .map__navigation {
-    padding:0px ;
-  
+    padding: 0px;
+
     & li {
-      display: flex;
-      list-style-type: none;
-      border-color: transparent;
-      color: white;
+        display: flex;
+        list-style-type: none;
+        border-color: transparent;
+        color: white;
     }
-  
+
     & ul {
-      display: flex;
-      width: 100%;
-      flex-wrap: wrap;
-      column-gap: 30px;
-      justify-content: start;
-      margin: 0px;
-      padding: 30px 0px 30px 0px;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        justify-content: start;
+        margin: 0px;
+        padding: 30px 0px 30px 0px;
     }
-  
+
     & a {
-      color: white;
-      text-decoration: none;
+        color: white;
+        text-decoration: none;
     }
-  }
-  
+}
+
 .map__logo {
     width: 40%;
 }
@@ -248,12 +252,13 @@
     font-weight: 700;
     font-size: 48px;
     line-height: 31px;
-    color: #3E3D3F;;
+    color: #3E3D3F;
+    ;
     width: 70%;
     padding: 20px 0;
 }
 
-.map__description{
+.map__description {
     font-family: 'Georgia', sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -269,7 +274,7 @@
     color: #D9D9D9;
 }
 
-.map__credits-copy{
+.map__credits-copy {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -294,7 +299,7 @@ iframe.location__iframe {
 
 @media only screen and (max-width: 768px) {
 
-/* Hero Banner */ 
+    /* Hero Banner */
     .hero-banner {
         display: flex;
         flex-direction: column;
@@ -311,9 +316,10 @@ iframe.location__iframe {
     .hero-banner__col2 {
         width: 100%;
     }
-/* end of Hero Banner */ 
 
-/* About */ 
+    /* end of Hero Banner */
+
+    /* About */
     .about .col-sec {
         padding: 1em;
     }
@@ -335,16 +341,17 @@ iframe.location__iframe {
         width: 100%;
     }
 
-/* end of about Banner */ 
-    
+    /* end of about Banner */
 
-/* Projects */ 
+
+    /* Projects */
     .tab__img {
         width: 30%;
     }
-/* end of Projects*/ 
 
-/* Map */
+    /* end of Projects*/
+
+    /* Map */
 
     .map-container {
         display: flex;
@@ -366,7 +373,7 @@ iframe.location__iframe {
         height: 400px;
     }
 
-    .map__container-nav-description{
+    .map__container-nav-description {
         display: flex;
         flex-direction: column-reverse;
     }
@@ -388,24 +395,24 @@ iframe.location__iframe {
     }
 
     .map__navigation {
-        padding:0px ;
-      
+        padding: 0px;
+
         & li {
-          padding: 10px;
+            padding: 10px;
         }
-      
+
         & ul {
-          flex-direction: column;
-          align-items: center;
+            flex-direction: column;
+            align-items: center;
         }
-      
+
         & a {
-          color: white;
-          text-decoration: none;
+            color: white;
+            text-decoration: none;
         }
-      }
-    
-/* end of Map */
+    }
+
+    /* end of Map */
 }
 
 // --------------------------------------------------------------------------------------------------------//
@@ -426,7 +433,7 @@ iframe.location__iframe {
         line-height: 20px;
     }
 
-/* About */
+    /* About */
 
     .about__head {
         font-size: 30px;
@@ -438,46 +445,48 @@ iframe.location__iframe {
         text-align: center;
     }
 
-/* end of About */
+    /* end of About */
 
-/* Projects */
-.project {
-    padding: 2em;
-}
+    /* Projects */
+    .project {
+        padding: 2em;
+    }
 
-.col-img-wrap {
-    display: flex;
-    flex-wrap: wrap;
-}
+    .col-img-wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-.tab__img {
-    width: 100%;
-    margin-bottom: 2em;
-}
+    .tab__img {
+        width: 100%;
+        margin-bottom: 2em;
+    }
 
-.tabs-container {
-    padding: 0em;
-}
+    .tabs-container {
+        padding: 0em;
+    }
 
-.project-tabs {
-    margin-bottom: 2em;
-}
-/* end of Projects */
+    .project-tabs {
+        margin-bottom: 2em;
+    }
 
-/* Events */
-.events .col-sec {
-    padding: 2em;
-}
+    /* end of Projects */
 
-.events-list-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-/* end of Events */
+    /* Events */
+    .events .col-sec {
+        padding: 2em;
+    }
+
+    .events-list-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* end of Events */
 
 
-/* Map */
+    /* Map */
     .map__logo {
         width: 80%;
     }
@@ -493,7 +502,7 @@ iframe.location__iframe {
     .map-container {
         padding: 2em;
     }
-/* end of Map */
+
+    /* end of Map */
 
 }
-
